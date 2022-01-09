@@ -1,0 +1,109 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white
+  }
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: blueviolet
+}
+  
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+.images {
+    grid-column: 1 / 2;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  }
+
+.headline {
+    text-shadow: 0 0 5px;
+    font-size: 45px;
+    font-family: fantasy;
+}
+
+.name {
+  grid-column: 2 / 3;
+  align-self: center;
+  justify-self: start;
+  text-shadow: 0 0 10px black;
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:green;
+
+}
+  
+  
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 1em / 1em;
+    background: blue;
+    padding: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 100%;
+    height: 300px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+  
+.social-box {
+    display: grid;
+    border-radius: 1em / 1em;
+    background-color:blue;
+    background-position: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 100%;
+    height: 150px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+
+a,
+li {
+    display: flex;
+    align-items: center;
+  }
+  
+.title {
+    margin-left: 20px;
+  }
+
+footer {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-01{
+  font-size: 25px;
+  color:whitesmoke;
+}
+
+.footer-02{
+  font-size: 22px;
+  color: greenyellow
+}
+
+.bottom-inscription{
+  font-size: 20px;
+  font-style: oblique;
+  font-family:'Courier New', Courier, monospace;
+} 
+
+.list{
+  font-size: 20px;
+  font-family: fantasy;
+}

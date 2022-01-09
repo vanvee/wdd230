@@ -1,31 +1,41 @@
 body {
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: white
+   
+    background-color: white;
   }
-main {
-  max-width: 900px;
+  #content{
+    max-width: 960px;
   margin: 0 auto;
-  background-color: blueviolet
+  background-color: white;
 }
   
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
+.li{
+  display: grid;
+  margin-right: 700px;
+}
 
 .images {
-    grid-column: 1 / 2;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  padding-right: 50px;
+  margin-top: 10px;  
 
   }
 
-.headline {
-    text-shadow: 0 0 5px;
-    font-size: 45px;
-    font-family: fantasy;
+.header {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  border-radius: 1em / 1em;
+  background:green;
+  padding: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
+  max-width: 100%;
+  height: 150px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }
+
 
 .name {
   grid-column: 2 / 3;
@@ -34,27 +44,34 @@ main {
   text-shadow: 0 0 10px black;
   font-size: 45px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:green;
+  color:black;
 
 }
   
   
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    justify-content: center;
-    border-radius: 1em / 1em;
-    background: blue;
-    padding: 20px;
-    margin: 0 auto;
-    padding-top: 10px;
-    max-width: 100%;
-    height: 300px;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-  }
+img{
+  grid-column: 2 auto;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
 
+h1 {
+  justify-items: right;
+  align-self: center;
+  grid-column: 2;
+  color: white;
+}
 
+h2 {
+  text-shadow: 0 0 5px;
+}
+
+.heading {
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.line{
+  border-bottom: 1px solid rgb(33, 79, 231);
+}
   
 .social-box {
     display: grid;
@@ -76,32 +93,37 @@ a,
 li {
     display: flex;
     align-items: center;
+    line-height: 2;
   }
   
 .title {
     margin-left: 20px;
   }
-
+  .p-white {
+    color: white;
+  }
+  
+  .p-yellow {
+    color: yellow;
+  
+  }
+  inf {
+    align-items: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  body {
+    background-color: bisque;
+  }
 footer {
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.footer-01{
-  font-size: 25px;
-  color:whitesmoke;
-}
 
-.footer-02{
-  font-size: 22px;
-  color: greenyellow
-}
-
-.bottom-inscription{
-  font-size: 20px;
-  font-style: oblique;
-  font-family:'Courier New', Courier, monospace;
-} 
 
 .list{
   font-size: 20px;
